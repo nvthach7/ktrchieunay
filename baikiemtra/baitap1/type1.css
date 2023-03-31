@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   box-sizing: border-box;
+}
+#header{
+    height: 50px;
+    background-color: rgb(79, 133, 172);
+    width: 1000px;
+    margin: auto;
+}
+.main-menu li{
+    list-style: none;
+    float: left;
+    padding: 30px;
+    position: relative;
+   padding-top: 10px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: white;
+}
+.main-menu li a:hover{
+    color: rgb(53, 41, 41);
+    
+}
+
+ul .sub-menu{
+    background-color: rgb(78, 132, 43);
+    display: none;
+    position: absolute;
+    width: 170px;
+    margin-left: -50px;
+    
+}
+.sub-menu li{
+    list-style: none;;
+}
+.sub-menu li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    line-height: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+.main-menu > li:hover .sub-menu{
+    display: block;
+}
+#header h2{
+    text-align: right;
+    padding-right: 10px;
+    line-height: 45px;
+    text-decoration: line-through  ;
+    color: white;
+}
+#content{
+    background-color: rgb(79, 133, 172);
+    height: 420px;
+    width: 1000px;
+    margin: auto;
+    border-top:dashed;
+    color: #fff;
+}
+#content .im1{
+    margin-top: 40px;
+    margin-left: -500px;
+}
+#content h1{
+margin-left: 50px;
+margin-top: 15px;
+}
+#content p{
+   margin-left: 60px; 
+}
+#p2 h2{
+    margin-left: 480px;
+    margin-top: -335px;
+    color: #fff;
+}
+#p2 p{
+    padding-top: 20px;
+    padding-left: 420px;
+    color: #fff;
+}
+.fom{
+    padding-left: 520px;
+    padding-top: 5px;
+    
+}
+.fom .tx1 {
+    margin-left:120px;
+    border: 2px solid red;
+}
+.fom .tx2 {
+    margin-left: 86px;
+    border: 2px solid red;
+}
+.fom .tx3 {
+    margin-left: 47px;
+    border: 2px solid red;
+}
+.fom .tx4 {
+    margin-left: 121px;
+    border: 2px solid red;
+}
+.fom .tx5 {
+    margin-left: 97px;
+    border: 2px solid red;
+}
+.fom .tx6 {
+    margin-left: 150px;
+    margin-top: -70px;
+    border: 2px solid red;
+position: relative;
+}
+/*
+.fom .sub-mit{
+    
+    margin-left: -170px;
+    margin-top: 50px;
+    border: 1px solid red;
+}
+.fom .re-set{
+    border: 1px solid red;
+}*/
+
+.sub-mit{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -165px;
+    border: 1px solid red;
+}
+.re-set{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -115px;
+    border: 1px solid red;
+}
+#footer{
+    height: 70px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(79, 133, 172);
+    border-top: dashed;
+    color: #fff;
+}
+.p1{
+    text-align: center;
+}
+.p12{
+    text-align: center;
+}

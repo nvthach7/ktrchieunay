@@ -1,0 +1,253 @@
+/**{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    height: 150px;
+    background-color: rgb(247, 145, 12);
+   width: 1000px;
+  margin: auto;
+  
+}
+ul.menu>li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.menu>li>a{text-decoration: none;
+    color: white;
+    background-color: aqua;
+    padding:10px;
+  margin: 5px;
+}
+.menu li a:hover{
+    color: rgb(206, 212, 28);
+    cursor: pointer;
+}
+ul .sub-menu{
+    background-color: red;
+display: none;
+position: absolute;
+
+}
+.sub-menu li{
+    list-style: none;
+}
+.menu > li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+  
+    border-top: 1px solid #ddd;
+}
+
+.menu{
+   padding: 120px 0px 0px 500px;
+}
+.hoachu img{
+   margin: -120px 0px 60px 30px;
+
+}
+.hoachu h1 {
+    margin: -170px 0px 60px 120px;
+color: white;
+}
+.hoachu p{
+    margin: -60px 0px 60px 120px;
+color: white;
+}
+
+.form-content{
+    margin: -180px 5px 5px 780px;
+    border:solid 2px #eee;
+    
+}
+#content{
+    height: 550px;
+    border:solid 1px #000;
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+}
+#content .why{
+    margin-top: 30px;
+    border-bottom: dashed;
+    width: 70%;
+
+}
+ #content .for{
+ margin-top: 10px;
+ text-shadow: 4px 4px 4px 
+  #803b3b;
+ }
+ #content form{
+    margin-top: 10px;
+ }
+#content .reset{
+    margin-left: 5px;
+}
+#content .flower{
+    border-bottom: dashed;
+    width: 33%;
+    margin-left: 370px;
+    margin-top: -310px;
+}
+#content .openrating{
+    margin-left: 370px;
+    margin-top: 10px;
+}
+#content .software{
+    margin-left: 370px;
+    margin-top: 10px;
+}
+#content .nvb12{
+    margin-left: 370px;
+    margin-top: 10px;
+}
+#phan3{
+    height: 400px;
+    width: 250px;
+    background-color: bisque;
+    margin-top: -340px;
+    margin-left:715px;
+    padding: 20px;
+
+}
+#phan3 .discount{
+    border-bottom: dashed;
+}
+
+#phan3 .img2{
+    margin-top:20px;
+    margin-left: -15px;
+}
+#phan3 i{
+    margin-left: 200px;
+}
+#phan3 .read{
+    color: rgb(130, 13, 188);
+    margin-left: 120px;
+    margin-top: -27px;
+}
+#footer{
+    height: 50px;
+    width: 1000px;
+    background-color: brown;
+    margin: auto;
+}
+.vanban p{
+    margin-top: -18px;
+    margin-left: 255px;
+    color: aqua;
+}
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    height: 700px;
+    width: 1000px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 0px;
+}
+#main #header{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(24, 60, 182);
+}
+#main #CONTENT {
+    height: 540px;
+    background-color: rgb(237, 237, 235);
+    width: 100%;
+    border: 1px solid black;
+}
+#main #footer{
+    height: 20px;
+    width: 100%;
+}
+#header .img1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#header h1{
+    margin-left: 110px;
+    margin-top: -100px;
+    color: white;
+}
+#header p{
+    margin-left: 110px;
+    margin-top: 10px;
+    color: white;
+}
+.menu{
+    margin-left: 405px;
+}
+.main-menu li{
+    float: left;
+    list-style: none;
+background-color: rgb(167, 100, 19);
+line-height: 30px;
+margin-left: 20px;
+position: relative;
+
+margin-top: 7px;
+padding-left: 20px;
+}
+.main-menu li a{
+    color: rgb(163, 160, 160);
+    text-decoration: none;
+    
+    
+}
+.main-menu li a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.sub-menu{
+display: none;
+  position: absolute;  
+}
+.sub-menu li{
+   
+    list-style: none;
+}
+.sub-menu li a{
+    display: block;
+    
+}
+.main-menu>li:hover .sub-menu{
+    display: block;
+}
+#header .fom1{
+    margin-left:800px;
+    margin-top: -90px;
+    border: 2px solid black;
+}
+.content-phai{
+    width: 70%;
+    height: 100%;
+    border-right: 2px solid black;
+}
+.content-phai h2{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.contact{
+    height: 10%;
+    border-bottom:dashed ;
+    margin-top:50px;
+}
+.content-duoi{
+    width: 50%;
+    border-right: 2px solid red;
+}
+
